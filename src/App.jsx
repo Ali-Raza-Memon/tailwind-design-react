@@ -1,3 +1,4 @@
+import Home from './components/home'
 import './index.css'
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-    <div className='text-3xl font-bold text-red-400'>Hello</div>
+      <Home/>
       
     </>
   )
